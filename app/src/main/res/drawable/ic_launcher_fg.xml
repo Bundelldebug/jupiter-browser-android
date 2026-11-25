@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Squircle-safe Safari-inspired Jupiter compass within 32..76dp -->
+    <!-- Soft outer dial ring -->
+    <path
+        android:pathData="M54,32 A22,22 0 1,1 53.99,32 Z"
+        android:fillColor="#1AFFFFFF"
+        android:strokeColor="#E6FFFFFF"
+        android:strokeWidth="2.4" />
+    <!-- Cardinal ticks -->
+    <path
+        android:pathData="M54,35 V38.5 M54,69.5 V73 M35,54 H38.5 M69.5,54 H73"
+        android:strokeColor="#CCFFFFFF"
+        android:strokeWidth="2.0"
+        android:strokeLineCap="round" />
+    <!-- Diagonal minor ticks -->
+    <path
+        android:pathData="M41.2,41.2 L43.4,43.4 M64.6,64.6 L66.8,66.8 M66.8,41.2 L64.6,43.4 M43.4,64.6 L41.2,66.8"
+        android:strokeColor="#80FFFFFF"
+        android:strokeWidth="1.5"
+        android:strokeLineCap="round" />
+    <!-- Compass needle: North-East (coral red) -->
+    <path
+        android:pathData="M65.8,42.2 L57.2,57.2 L50.8,50.8 Z"
+        android:fillColor="#FFFF4D57" />
+    <!-- Compass needle: South-West (pure white) -->
+    <path
+        android:pathData="M42.2,65.8 L50.8,50.8 L57.2,57.2 Z"
+        android:fillColor="#FFFFFFFF" />
+    <!-- Center pivot -->
+    <path
+        android:pathData="M54,51.6 A2.4,2.4 0 1,1 53.99,51.6 Z"
+        android:fillColor="#FF0D5BE0"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="1.2" />
+</vector>

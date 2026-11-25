@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">주피터</string>
+    <string name="accent_green">그린</string>
+    <string name="accent_blue">블루</string>
+    <string name="accent_red">레드</string>
+    <string name="accent_violet">바이올렛</string>
+    <string name="accent_teal">틸</string>
+    <string name="accent_orange">오렌지</string>
+    <string name="accent_pink">핑크</string>
+    <string name="accent_dynamic">시스템 색상</string>
+</resources>
